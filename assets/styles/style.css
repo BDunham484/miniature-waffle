@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282a36;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1 {
+    padding: 5vh;
+    background-color: #cacfed;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    /* background-color: #878dad; */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .game-board {
+    width: 70vw;
+    height: 50vh;
+    background-color: #cacfed;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.player {
+    width: 50%;
+    height: 65%;
+    background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-left-radius: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.computer {
+    width: 50%;
+    height: 65%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top-right-radius: 15px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.controlPanel {
+    width: 70vw;
+    height: 35%;
+    background-color: blanchedalmond;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons {
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border: none;
+    background-color: #282a36;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.card {
+    width: 30%;
+    height: 40%;
+    background-color: #cacfed;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#results {
+    display: none;
+}
+
+.results {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 10vh;
+    background-color: azure;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#win-lose {
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+
+
+
+
